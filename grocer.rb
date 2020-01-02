@@ -51,15 +51,12 @@ def apply_coupons(cart, coupons)
        }
        cart << cart_item_with_coupon
        cart_item[:count] -= coupons[:counter][:num]
+ end
+end
   counter += 1
   
-  Coupon = [
-      {:item => "AVOCADO", :num => 2, :cost => 5.00},
-      {:item => "BEER", :num => 2, :cost => 20.00},
-      {:item => "CHEESE", :num => 3, :cost => 15.00}
-    ]
+  
 
-end
 
 def apply_clearance(cart)
   # Consult README for inputs and outputs
