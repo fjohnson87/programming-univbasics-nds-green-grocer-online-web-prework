@@ -12,7 +12,7 @@ they can model complex real-world situations. Now we're going to take everything
 we've learned and use it to program a grocery store checkout process.
 
 This lesson will be challenging. You're going to have to integrate everything
-you've learned to this point, repetition, conditional flow control, analyzing
+you've learned to this point, repet ition, conditional flow control, analyzing
 NDS, processing NDS, producing _insights_. On the other side of this challenge
 you're going to _know_ that you _know_ how to construct and write procedural
 style programs in Ruby.
